@@ -6,3 +6,5 @@ Tecnologías:
 HTML,
 CSS,
 JavaScript
+
+Librerias: SweetAlert2
