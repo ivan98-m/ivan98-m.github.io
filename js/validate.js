@@ -52,7 +52,7 @@ function enviar(){
             icon: 'success',
             title: 'HOLA!!',
             text: nameValid.value+' '+lastNameValid.value,
-            timer: 2000
+            timer: 2500
         })
         console.log(errorBox)
 
