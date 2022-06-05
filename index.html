@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombian Traders</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container information">
+        <form action="" method="POST" name="frm_information" id="frm_information"> 
+            <h1>Información Personal</h1>
+            <div class="formulario">
+                <div class="campo-entrada">
+                    <div class="label-info">
+                        <label for="names">Nombres</label>
+                    </div>
+                    <input type="text" name="names" id="names" placeholder="Nombres">
+                    <small class="error" id="error">Digite su nombre</small>
+                </div>
+                <div class="campo-entrada">
+                    <div class="label-info">
+                        <label for="lastnames">Apellidos</label>
+                    </div>
+                    <input type="text" name="lastnames" id="lastnames" placeholder="Apellidos">
+                    <small class="error" id="error">Digite sus apellidos</small>
+                </div>
+                <input id="enviar-datos" class="button" type="button" value="Enviar">
+            </div>
+        </form>
+    </div>
+    <script src="js/validate.js"></script>
+</body>
+</html>
