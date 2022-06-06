@@ -53,7 +53,6 @@ function enviar(){
             title: 'HOLA!!',
             text: nameValid.value+' '+lastNameValid.value,
         })
-        console.log(errorBox)
 
         //form.submit();          
     }else{
