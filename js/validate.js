@@ -52,7 +52,6 @@ function enviar(){
             icon: 'success',
             title: 'HOLA!!',
             text: nameValid.value+' '+lastNameValid.value,
-            timer: 2500
         })
         console.log(errorBox)
 
@@ -62,6 +61,7 @@ function enviar(){
             icon: 'error',
             title: 'Oops...',
             text: 'Campos vacíos!',
+	    timer: 1800
         })
     }
 }
